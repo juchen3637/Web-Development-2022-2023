@@ -1,0 +1,54 @@
+body {
+  background-color: midnightblue;
+  margin: 0;
+}
+
+h3 {
+  color: white;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#home-score-box h1 {
+  color: red;
+  padding: 2em 2em;
+  width: 50%;
+  background-color: black;
+  text-align: center;
+  font-size: 50px;
+  font-family: CursedTimer;
+
+}
+
+#guest-score-box h1 {
+  width: 50%;
+  color: red;
+  background-color: black;
+  padding: 2em 2em;
+  text-align: center;
+  font-size: 50px;
+  font-family: CursedTimer;
+}
+
+button {
+    border: 1px solid lightblue;
+    background-color: midnightblue;
+    color: lightblue;
+    height: 75px;
+    width: 75px;
+    margin-right: 10px;
+}
+
+#new-game {
+    width: 100px;
+    height: 100px;
+}
+
+@font-face {
+    font-family: CursedTimer;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
