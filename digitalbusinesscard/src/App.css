@@ -1,0 +1,112 @@
+.container {
+    width: 500px;
+    margin: auto;
+    margin-top: 44px;
+    border-radius: 10px;
+    height: 1250px;
+    background-color: #1A1B21;
+}
+
+body {
+    color: white;
+    background-color: #23252C;
+    font-family: Inter, sans-serif;
+}
+
+.footer {
+    background-color: #161619;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 80px;
+}
+
+ion-icon {
+    margin: 0px 20px;
+    font-size: 48px;
+    color: #918E9B;
+    transition: color 0.2s;
+}
+
+ion-icon:hover {
+    color: midnightblue;
+}
+
+a:visited {
+    color: #918E9B;
+}
+
+.about-interests-box {
+    max-width: 400px;
+    margin: auto;
+}
+
+.about-interests-box h1 {
+    font-size: 24px;
+    color: #F5F5F5;
+}
+
+.about-interests-box p {
+    font-size: 16px;
+    color: #DCDCDC;
+}
+
+.interests {
+    padding-top: 20px;
+}
+
+.facePicture {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h1 {
+    font-size: 50px;
+}
+
+.info h2 {
+    color: #F3BF99;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    margin: 5%;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.button-email {
+    color: #374151;
+}
+
+.button-email-icon ion-icon {
+    font-size: 24px;
+    color: #1E1F26;
+}
+
+.button-linkedin {
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
+
+.button-linkedin-icon ion-icon {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.info h2 {
+    font-weight: normal;
+    margin-top: -30px;
+}
